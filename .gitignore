@@ -1,0 +1,15 @@
+/vendor
+.env
+.env.backup
+/.fleet
+/.idea
+/.vscode
+.DS_Store
+/docker/nginx/conf.d/*server.conf
+
+/wp-content/plugins/*
+/wp-content/uploads/*
+/wp-content/themes/*
+wp-config.php
+*.log
+
