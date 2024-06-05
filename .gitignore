@@ -11,6 +11,7 @@ certificates
 /wp-content/plugins/*
 /wp-content/uploads/*
 /wp-content/themes/*
+/wp-content/languages/*
 wp-config.php
 *.log
 i.php
