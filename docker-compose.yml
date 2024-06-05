@@ -1,11 +1,18 @@
 version: '3'
 #name: ${CONTAINER_NAME}
 services:
-    app:
+      app:
+        build:
+            args:
+                user: "${UID}:${GID}"
+                uid: ${UID}
+            context: ./
+            dockerfile: Dockerfile
         image: wordpress_base_image:latest
         container_name: ${CONTAINER_NAME}_app
         restart: unless-stopped
         tty: true
+        user: "${UID}:${GID}"
         environment:
             SERVICE_NAME: ${CONTAINER_NAME}
             SERVICE_TAGS: ${APP_ENV}
