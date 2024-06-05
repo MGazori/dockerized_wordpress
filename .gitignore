@@ -6,6 +6,7 @@
 /.vscode
 .DS_Store
 /docker/nginx/conf.d/*server.conf
+certificates
 
 /wp-content/plugins/*
 /wp-content/uploads/*
