@@ -12,4 +12,4 @@
 /wp-content/themes/*
 wp-config.php
 *.log
-
+i.php
